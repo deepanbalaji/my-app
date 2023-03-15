@@ -1,0 +1,313 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    font-family:timesnewroman;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+     background-image: linear-gradient(to right ,white 5% ,#240a0f 90%);#b92b27 #1565C0
+    padding: 0 !important ;
+    
+}
+.navbar-brand
+{
+    height: 60px;
+    padding: 15px;
+    margin-top: 10px;
+    font-size: 60px;
+}
+
+.logo
+{
+    opacity: 2.0;
+    height: 60px;
+    width: auto;
+}
+.navbar-nav li
+{
+    padding:10px;
+}
+.navbar-nav li a
+{
+    color:white !important;
+    font-weight: 500;
+    text-align:;
+}
+
+/* website banner */
+
+#banner
+{
+
+.background
+{
+ background-image:linear-gradient(to right ,#1e130c 10% , #9a8478 87%);color:black;
+}
+}
+#myVideo {                                 
+  position: sticky;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+}
+
+.content {
+  position: sticky;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+}
+
+
+
+/*--------Services--------------*/
+
+#services
+{
+background-image: linear-gradient(to bottom ,White 50% ,white 97%);
+color:black;
+ padding-top: 80px;
+    padding-bottom: 80px;
+}
+{
+
+    padding-top: 90px;
+    padding-bottom: 90px;
+
+    padding: 60px 0;
+}
+
+.services
+{
+    padding: 40px;
+}
+
+.services h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.service-image
+{
+   width: 300px;
+    margin-top: 5px;
+    padding-right: px;
+}
+
+
+
+#services .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right ,#240a0f 10% , black87%);
+}
+
+/*---------------------about-us -------------*/
+
+#about-us
+{
+    background-image: linear-gradient(to right ,white 10% , white 87%);
+color:black;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10%; 
+}
+
+#about-us ul li
+{
+    margin: 12px 0;
+    font-size: 20px;
+}
+
+.about-image
+{
+    padding-top: 0%;
+}
+
+
+/*---------------------products-------------*/
+
+#products
+{
+background-color:white;color:black;
+    padding: 80px 0;
+ padding-bottom: 80px;
+}
+
+
+#products .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right ,#240a0f 10% , black87%);
+}
+
+#products .row
+{
+    margin-top: 30px;
+}
+
+#products .card
+{
+background-image: linear-gradient(to left ,#240a0f 10% , black 87%);
+color:white;
+width: 100%;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+/*---------------motorsport-------------*/
+
+#motorsport
+{
+    background-color: white;
+color:black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+{
+    background-image: linear-gradient(to right ,white 10% , white 87%);
+color:black;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+
+}
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 10%; 
+}
+
+#about-us ul li
+{
+    margin: 12px 0;
+    font-size: 20px;
+}
+
+.about-image
+{
+    padding-top: 0%;
+}
+
+
+/*---------------------museum-------------*/
+
+#museum
+{
+     background-image: linear-gradient(to left,white 10% , white 87%);
+color:black;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.about-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 5%; 
+}
+
+#museum ul li
+{
+    margin: 12px 0;
+    font-size: 20px;
+}
+
+.museum-image
+{
+    padding-top: 0%;
+}
+
+
+/*---------------contact us-------------*/
+
+#contact
+{
+
+    background-color: white;
+    color: black ;
+   
+}
+
+#contact p 
+{
+backgroun-image:black;
+color:white;
+    font-size: 36px;
+    font-weight:600;
+    margin-bottom: 30px;
+}
+
+.social-icons img
+{
+    width: 60px;
+    margin: 10px;
+    transition: 0.5s;
+}
+
+.social-icons a:hover img
+{
+    transform:translateY(-20px);
+}
+
+/*--------------- footer -------------*/
+
+#footer
+{
+    background-image: linear-gradient(to left,#240a0f 10% , black 87%);
+    color: white;
+}
+
+.footer-box
+{
+    padding: 20px;
+    margin-left: 100px;
+}
+.footer-box img
+{
+    hieght:80px;
+    width: 80px;
+    margin-bottom: px;
+}
+.footer-title
+{
+ font-size: 30px;
+}
+
+
+.copyright
+{
+    margin-bottom: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
