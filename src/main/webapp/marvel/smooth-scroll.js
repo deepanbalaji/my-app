@@ -1,7 +1,6 @@
 /*! SmoothScroll v16.1.4 | (c) 2020 Chris Ferdinandi | MIT License | http://github.com/cferdinandi/smooth-scroll */
 
-	(global = global || self, global.SmoothScroll = factory());
-}(this, (function () { 'use strict';
+	
 
 	//
 	// Default settings
@@ -443,16 +442,14 @@
 			/**
 			 * Loop scrolling animation
 			 */
-			var loopAnimateScroll = function (timestamp) {
-				if (!start) { start = timestamp; }
+			art) { start = timestamp; }
 				timeLapsed += timestamp - start;
 				percentage = speed === 0 ? 0 : (timeLapsed / speed);
 				percentage = (percentage > 1) ? 1 : percentage;
 				position = startLocation + (distance * easingPattern(_settings, percentage));
 				window.scrollTo(0, Math.floor(position));
 				if (!stopAnimateScroll(position, endLocation)) {
-					animationInterval = window.requestAnimationFrame(loopAnimateScroll);
-					start = timestamp;
+					animatio
 				}
 			};
 
@@ -515,19 +512,12 @@
 
 			// Get the anchored element
 			var anchor;
-			if (hash === '#') {
-				if (!settings.topOnEmptyHash) return;
-				anchor = document.documentElement;
+			= document.documentElement;
 			} else {
 				anchor = document.querySelector(hash);
 			}
 			anchor = !anchor && hash === '#top' ? document.documentElement : anchor;
 
-			// If anchored element exists, scroll to it
-			if (!anchor) return;
-			event.preventDefault();
-			setHistory(settings);
-			smoothScroll.animateScroll(anchor, toggle);
 
 		};
 
