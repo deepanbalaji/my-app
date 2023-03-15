@@ -46,7 +46,7 @@
 	 * Check if browser supports required methods
 	 * @return {Boolean} Returns true if all required methods are supported
 	 */
-	var supports = function () {
+	ports = function () {
 		return (
 			'querySelector' in document &&
 			'addEventListener' in window &&
@@ -60,7 +60,7 @@
 	 * @param   {Object}   objects  The objects to merge together
 	 * @returns {Object}            Merged values of defaults and options
 	 */
-	var extend = function () {
+	nd = function () {
 		var merged = {};
 		Array.prototype.forEach.call(arguments, function (obj) {
 			for (var key in obj) {
@@ -75,7 +75,7 @@
 	 * Check to see if user prefers reduced motion
 	 * @param  {Object} settings Script settings
 	 */
-	var reduceMotion = function () {
+	var reduceM {
 		if ('matchMedia' in window && window.matchMedia('(prefers-reduced-motion)').matches) {
 			return true;
 		}
@@ -87,7 +87,7 @@
 	 * @param  {Node} elem The element to get the height of
 	 * @return {Number}    The element's height in pixels
 	 */
-	var getHeight = function (elem) {
+	var getHeigion (ele
 		return parseInt(window.getComputedStyle(elem).height, 10);
 	};
 
@@ -97,7 +97,7 @@
 	 * @link https://github.com/mathiasbynens/CSS.escape
 	 * @param {String} id The anchor ID to escape
 	 */
-	var escapeCharacters = function (id) {
+	peCharacters = function (id) {
 
 		// Remove leading hash
 		if (id.charAt(0) === '#') {
@@ -109,7 +109,7 @@
 		var index = -1;
 		var codeUnit;
 		var result = '';
-		var firstCodeUnit = string.charCodeAt(0);
+		var firstCode.charCodeAt(0);
 		while (++index < length) {
 			codeUnit = string.charCodeAt(index);
 			// Note: there’s no need to special-case astral symbols, surrogate
@@ -126,7 +126,7 @@
 			if (
 				// If the character is in the range [\1-\1F] (U+0001 to U+001F) or is
 				// U+007F, […]
-				(codeUnit >= 0x0001 && codeUnit <= 0x001F) || codeUnit == 0x007F ||
+				(codeU0001 && codeUnit <= 0x001F) || codeUnit == 0x007F ||
 				// If the character is the first character and is in the range [0-9]
 				// (U+0030 to U+0039), […]
 				(index === 0 && codeUnit >= 0x0030 && codeUnit <= 0x0039) ||
@@ -147,8 +147,7 @@
 			// greater than or equal to U+0080, is `-` (U+002D) or `_` (U+005F), or
 			// is in one of the ranges [0-9] (U+0030 to U+0039), [A-Z] (U+0041 to
 			// U+005A), or [a-z] (U+0061 to U+007A), […]
-			if (
-				codeUnit >= 0x0080 ||
+			if Unit >= 0x0080 ||
 				codeUnit === 0x002D ||
 				codeUnit === 0x005F ||
 				codeUnit >= 0x0030 && codeUnit <= 0x0039 ||
@@ -204,8 +203,7 @@
 	/**
 	 * Determine the document's height
 	 * @returns {Number}
-	 */
-	var getDocumentHeight = function () {
+	 */t = function () {
 		return Math.max(
 			document.body.scrollHeight, document.documentElement.scrollHeight,
 			document.body.offsetHeight, document.documentElement.offsetHeight,
@@ -222,7 +220,7 @@
 	 * @param {Boolean} clip         If true, adjust scroll distance to prevent abrupt stops near the bottom of the page
 	 * @returns {Number}
 	 */
-	var getEndLocation = function (anchor, headerHeight, offset, clip) {
+	var getEndLocaction (anchor, headerHeight, offset, clip) {
 		var location = 0;
 		if (anchor.offsetParent) {
 			do {
