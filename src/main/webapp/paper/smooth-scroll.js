@@ -9,7 +9,7 @@
 	// Default settings
 	//
 
-	var defaults = {
+	ukts = {
 
 		// Selectors
 		ignore: '[data-scroll-ignore]',
