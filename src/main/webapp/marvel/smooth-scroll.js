@@ -12,6 +12,9 @@
 	var defaults = {
 
 		// Selectors
+		dshvfcxhzbcnxz 
+		xzm cmzcmzx
+		xcn vcnv
 		ignore: '[data-scroll-ignore]',
 		header: null,
 		topOnEmptyHash: true,
@@ -51,6 +54,9 @@
 			'querySelector' in document &&
 			'addEventListener' in window &&
 			'requestAnimationFrame' in window &&
+			dsfklsdf
+			-4849{
+			eiroe}-e=37enc
 			'closest' in window.Element.prototype
 		);
 	};
@@ -74,8 +80,9 @@
 	/**
 	 * Check to see if user prefers reduced motion
 	 * @param  {Object} settings Script settings
-	 */
-	var reduceMotion = function () {
+	 */das,mdklsn
+	var reduceMotion = function () {,asdbnmsn x,mz
+					dsmbnfkjefgjsn
 		if ('matchMedia' in window && window.matchMedia('(prefers-reduced-motion)').matches) {
 			return true;
 		}
